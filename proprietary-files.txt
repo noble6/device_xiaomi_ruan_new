@@ -1822,3 +1822,7 @@ vendor/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml
 vendor/lib64/libmorpho_HdrChecker.so
 vendor/lib64/libmorpho_Ldc.so
 vendor/lib64/qcrilNr_aidl_IQtiRadioConfig.so
+vendor/lib64/vendor.qti.gnss-V5-ndk_platform.so
+vendor/lib64/vendor.qti.hardware.radio.ims-V12-ndk_platform.so
+vendor/lib64/vendor.qti.hardware.radio.qtiradio-V8-ndk_platform.so
+vendor/lib64/vendor.qti.hardware.radio.qtiradioconfig-V2-ndk_platform.so

@@ -44,4 +44,4 @@ PRODUCT_EXTRA_RECOVERY_KEYS := vendor/lineage-priv/keys/releasekey
 # Fix About Device Processor Info
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.soc.manufacturer=Qualcomm \
-    ro.soc.model=Snapdragon\ 7s\ Gen\ 2
+    "ro.soc.model=Snapdragon 7s Gen 2"

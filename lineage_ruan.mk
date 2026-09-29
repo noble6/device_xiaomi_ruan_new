@@ -38,8 +38,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 AXION_MAINTAINER := 4-8-2-1-1-7
 BUILD_USERNAME := 4-8-2-1-1-7
-PRODUCT_DEFAULT_DEV_CERTIFICATE := ~/.android-certs/releasekey
-PRODUCT_EXTRA_RECOVERY_KEYS := ~/.android-certs/releasekey
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/lineage-priv/keys/releasekey
+PRODUCT_EXTRA_RECOVERY_KEYS := vendor/lineage-priv/keys/releasekey
 
 # Fix About Device Processor Info
 PRODUCT_PRODUCT_PROPERTIES += \

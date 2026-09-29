@@ -40,3 +40,8 @@ AXION_MAINTAINER := 4-8-2-1-1-7
 BUILD_USERNAME := 4-8-2-1-1-7
 PRODUCT_DEFAULT_DEV_CERTIFICATE := ~/.android-certs/releasekey
 PRODUCT_EXTRA_RECOVERY_KEYS := ~/.android-certs/releasekey
+
+# Fix About Device Processor Info
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.soc.manufacturer=Qualcomm \
+    ro.soc.model=Snapdragon\ 7s\ Gen\ 2
